@@ -20,7 +20,8 @@
 	}
 
 	&.home-title h1 {
-		@include font-size(50);
+		// @include font-size(50);
+		margin: 18px 0;
 	}
 }
 
