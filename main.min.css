@@ -326,6 +326,7 @@ figure{margin:0;margin-bottom:30px}
 .entry-header,.page-header{position:relative;min-height:22vw;padding:30px 0;color:white;background:black;background-size:cover;background-repeat:no-repeat}
 .entry-header h1,.page-header h1{margin:0}
 .entry-header .cover-image,.page-header .cover-image{height:500px}
+.entry-header.home-title h1,.page-header.home-title h1{font-size:calc(1rem + 34px);font-size:calc(var(--font-size) + 34px)}
 .entry-content>*:first-child{padding-top:30px;padding-top:var(--gap)}
 .header-basic{background:transparent;min-height:0;height:auto;color:black;padding:0;margin-bottom:30px}
 .header-basic .cover-image{margin-bottom:30px;margin-bottom:var(--gap)}
