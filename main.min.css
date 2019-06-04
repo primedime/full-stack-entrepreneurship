@@ -263,6 +263,7 @@ body .navigation-menu-icon:after,body .navigation-menu-icon:before{background:wh
 #secondary .widget,#secondary .menu li{color:#191919;color:var(--main-text-color)}
 body{background:white;background:var(--body-bg)}
 .site-logo{font-size:calc(1rem + 17px);font-size:calc(var(--font-size) + 17px);text-transform:uppercase;color:white;max-width:350px}
+.custom-logo{width:75%}
 .site-top{position:relative;background:#f75959;background:var(--site-top)}
 .menu li{color:white}
 #panel-left .menu .current-menu-item>.menu-item-link,#panel-left .menu .menu-item-link.focus{background:rgba(0,0,0,0.5);color:white}
