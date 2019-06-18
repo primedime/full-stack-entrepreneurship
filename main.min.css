@@ -382,6 +382,7 @@ time,time a{font-size:calc(1rem - 3px);font-size:calc(var(--font-size) - 3px)}
 .pagination .page-numbers.dots{background:transparent;color:grey;margin:0}
 section{padding-top:30px;padding-top:var(--gap);padding-bottom:30px;padding-bottom:var(--gap)}
 section section{padding-top:0;padding-bottom:0}
+.career-tracks .wp-block-column{border:1px solid black;padding:1rem 1rem 0;border-radius:25px}
 @media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){.flex-card-grid>*{-ms-flex-preferred-size:auto;flex-basis:auto;min-width:calc(320px)}
 }@media all and (-ms-high-contrast:none){#outdated{display:block}
 #outdated.hidden{display:none}
