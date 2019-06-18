@@ -382,7 +382,10 @@ time,time a{font-size:calc(1rem - 3px);font-size:calc(var(--font-size) - 3px)}
 .pagination .page-numbers.dots{background:transparent;color:grey;margin:0}
 section{padding-top:30px;padding-top:var(--gap);padding-bottom:30px;padding-bottom:var(--gap)}
 section section{padding-top:0;padding-bottom:0}
-.career-tracks .wp-block-column{border:1px solid black;padding:1rem 1rem 0;border-radius:25px}
+.career-tracks .wp-block-column{padding:1rem 1rem 0;border-radius:25px;-webkit-box-shadow:-2px 7px 22px -13px rgba(0,0,0,0.75);box-shadow:-2px 7px 22px -13px rgba(0,0,0,0.75);-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
+.career-tracks .wp-block-column:hover{-webkit-box-shadow:-2px 7px 22px -9px rgba(0,0,0,0.75);box-shadow:-2px 7px 22px -9px rgba(0,0,0,0.75);-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
+.career-tracks .wp-block-button__link{-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
+.career-tracks .wp-block-button__link:hover{padding:12px 35px;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
 @media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){.flex-card-grid>*{-ms-flex-preferred-size:auto;flex-basis:auto;min-width:calc(320px)}
 }@media all and (-ms-high-contrast:none){#outdated{display:block}
 #outdated.hidden{display:none}
