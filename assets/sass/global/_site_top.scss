@@ -25,7 +25,7 @@ body {
 --------------------------------------------------------------*/
 .site-top {
 	position: relative; //change to fixed or absolute if wanted.
-	background: var(--site-top);
+	background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
 }
 
 /*--------------------------------------------------------------

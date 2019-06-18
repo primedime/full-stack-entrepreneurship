@@ -264,7 +264,7 @@ body .navigation-menu-icon:after,body .navigation-menu-icon:before{background:wh
 body{background:white;background:var(--body-bg)}
 .site-logo{font-size:calc(1rem + 17px);font-size:calc(var(--font-size) + 17px);text-transform:uppercase;color:white;max-width:350px}
 .custom-logo{width:75%}
-.site-top{position:relative;background:#f75959;background:var(--site-top)}
+.site-top{position:relative;background:-webkit-gradient(linear,left top,right top,from(#499bea),to(#207ce5));background:linear-gradient(to right,#499bea 0,#207ce5 100%)}
 .menu li{color:white}
 #panel-left .menu .current-menu-item>.menu-item-link,#panel-left .menu .menu-item-link.focus{background:rgba(0,0,0,0.5);color:white}
 .site-footer{padding-top:30px;padding-bottom:5px;background:#191919;background:var(--main-text-color);color:#cacaca;color:var(--subtle-text-color);font-size:calc(1rem - 3px);font-size:calc(var(--font-size) - 3px)}
