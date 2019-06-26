@@ -31,12 +31,17 @@ dd {
 }
 
 //Gutenberg fix
-.entry-content > ul, .entry-content > ol{
+.entry-content > ul,
+.entry-content > ol {
 	padding-left: var(--gap);
 
-	li{
+	li {
 		padding: 5px 0;
 	}
+}
+
+.learn-list ul {
+	font-size: 1rem;
 }
 
 /*--------------------------------------------------------------
@@ -76,5 +81,3 @@ th:last-child,
 td:last-child {
 	padding-right: 0;
 }
-
-
